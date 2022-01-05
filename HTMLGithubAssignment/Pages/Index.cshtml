@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Almost Doesn't Count Cover</h1>
+    <p>Music video cover done by me (right) and a friend (left) of our favorite artist Brandy. My friend asked me to join though I didn't want to lol.'</p>
+    <br />
+    <button onclick="myMove()">Animation Button!</button>
+    <div id="video-container">
+        <iframe id="animate" width="650" height="350" src="https://www.youtube.com/embed/Yma3JQsoU38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
